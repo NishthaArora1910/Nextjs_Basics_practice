@@ -1,0 +1,16 @@
+server components by default in NextJS - better security 
+for client - 'use client' at top of the page
+cannot use hooks in server components only in clients
+at root level we should have file name page.js 
+
+account , products - route
+membership - nested route
+
+dynamic route - [details]
+catch all route - [...product-review]
+
+<Link> tag - from one page to another -> next/link
+useRouter -> next/navigation -- When using it you need to convert this component as client components 
+
+Client side data fetching - // useEffect hook
+//swr , useSwr hook
